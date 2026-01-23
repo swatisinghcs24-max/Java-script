@@ -1,80 +1,86 @@
-// var age = 24;
+// function  saymyname(finalname){
+// console.log(finalname);
+// }
+// saymyname("swati");
+
+// var age ;
 
 // console.log(age);
 
-// {
-//     console.log(age);
-// }
+// var age = 25 ;
 
-// if(true){
-//     console.log(age);
-// }
+// console.log(age);
 
-// function sayhello(){
-
-//     var name = "swati";
-//     console.log("hello duniya", name);
-// }
-
+// let age = 25;
+ 
 // sayhello();
-
-// {
-//     var height = 180;
-// }
-// console.log(height);
-
-// let marks = 100;
-// console.log(marks);
-
-
-// class human {
-//     age;
-//  #wt = 55;
-//     ht = 200; 
-
-//     constructor(newage ,newheight){
-//            this.age = newage;
-//            this.height = newheight;
-//     }
-//     walking(){
-//         console.log("i am walking" , this.#wt);
-//     }
-//     running(){
-//         console.log("i am running")
-//     }
-
-//     get fetchweight(){
-//         return this.#wt;
-//     }
-
-//     set modifyweight(val){
-//         this.#wt = val ;
-//     }
+// function sayhello(){
+//     console.log("hello jee kaise hai sara");
 // }
 
-// let obj = new human(50 , 190);
 
-// console.log(obj.height);
+// class human{
 
-// obj.walking();
-
-// function sayname( fname = "uday" , lname = fname.toUpperCase() ){
-//  console.log("my name is:" , fname , " " , lname);
 // }
 
-// sayname("swati" );
+// const object1 = new human();0
 
-// function solve(value){
-//     console.log("hello jii"  , value);
+// let greet =  function()  {
+//     console.log("greeting for the day")
 // }
 
-// solve(15);
+// greet();
 
-function getage(){
-    return 190;
-}
 
-function utility(name = "love" , age = getage()){
- console.log(name , " " ,age);
-}
-utility();
+// function greetme(greet ,fullname)  {
+//     console.log("hello", fullname);
+//     greet();
+// }
+// function greet () {
+//     console.log("greeting for the day")
+// }
+
+// greetme(greet , "swati");
+  
+
+// function solve(number) {
+//     return function(number){
+//         return number*number;
+//     }
+// }
+//  let ans = solve(5);
+
+//  let finalans = ans(10);
+//  console.log(finalans);
+
+// const arr = [
+//     function(a,b){
+//         return a+b ;
+//     },
+//     function(a,b){
+//       return a-b;
+//     },
+//     function(a,b){
+//         return a*b;
+//     }
+// ]
+
+// let first = arr[0];
+// let ans = first(5,10);
+
+// console.log(ans);
+
+// let obj ={ 
+//     age:24,
+//     wt:56,
+//     ht:200,
+//     greet : ()=>{
+//          console.log("hello duniya");
+//     }
+// } 
+
+
+// console.log(obj.age);
+
+// obj.greet();
+
